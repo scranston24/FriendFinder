@@ -1,7 +1,12 @@
-//Dependencies
-var express = require("express");
-var bodyParser = require("body-parser");
-var path = require("path");
+var friends = [{
+  firstName: "Sean",
+  lastName: "Williams",
+  imageURL: "www.NFL.com",
+  questionOne: 2,
+  questionTwo: 4,
+  questionsThree: 1,
+  questionFour: 5,
+  questionFive: 3
+}];
 
-//Tells node that we are creating an "express" app
-var app = express();
+module.exports = friends;
